@@ -1,11 +1,27 @@
-// Example questions.json
 [
   {
     "id": 1,
+    "type": "multipleChoice",
     "text": "What is the capital of France?",
     "options": ["Berlin", "Paris", "London"],
-    "correctAnswer": "Paris",
-    "type": "multipleChoice"
+    "correctAnswer": "Paris"
   },
-  // Add more questions as needed
+  {
+    "id": 2,
+    "type": "narrative",
+    "text": "Michelle and her roommate rent an apartment for $798 a month. Each of them pays half. Because there are about 4 weeks in a month, Michelle estimates her share of the rent is about $100 a week. Is that a good estimate?",
+    "correctAnswer": true
+  },
+  {
+    "id": 3,
+    "type": "imageSelection",
+    "text": "Which image is a dog?",
+    "options": [
+      {"id": 1, "url": "url_to_dog_image_1.jpg"},
+      {"id": 2, "url": "url_to_dog_image_2.jpg"},
+      {"id": 3, "url": "url_to_cat_image.jpg"}
+    ],
+    "correctAnswerId": 1
+  },
+
 ]
