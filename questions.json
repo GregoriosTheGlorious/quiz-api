@@ -1,0 +1,11 @@
+// Example questions.json
+[
+  {
+    "id": 1,
+    "text": "What is the capital of France?",
+    "options": ["Berlin", "Paris", "London"],
+    "correctAnswer": "Paris",
+    "type": "multipleChoice"
+  },
+  // Add more questions as needed
+]
