@@ -17,9 +17,9 @@
     "type": "imageSelection",
     "text": "Which image is a dog?",
     "options": [
-      {"id": 1, "url": "url_to_dog_image_1.jpg"},
-      {"id": 2, "url": "url_to_dog_image_2.jpg"},
-      {"id": 3, "url": "url_to_cat_image.jpg"}
+      {"id": 1, "url": "dog1.jpg"},
+      {"id": 2, "url": "cat1.jpg"},
+      {"id": 3, "url": "frog1jpg"}
     ],
     "correctAnswerId": 1
   }
